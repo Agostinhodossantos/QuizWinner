@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main"
+    tools:context=".Home">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icone"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           <Button
+               android:id="@+id/start"
+               android:layout_width="match_parent"
+               android:background="@drawable/btn_bg"
+               android:text="@string/comecar"
+               android:textSize="20sp"
+               android:textAllCaps="false"
+               android:textColor="@android:color/white"
+               android:layout_height="50dp" />
+            <Button
+                android:id="@+id/credit"
+                android:background="@drawable/btn_bg"
+                android:text="@string/conquistas"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <Button
+                android:background="@drawable/btn_bg"
+                android:text="@string/sobre"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

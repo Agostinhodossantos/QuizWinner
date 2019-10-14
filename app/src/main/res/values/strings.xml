@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quiz Winner</string>
+    <string name="code_admob">ca-app-pub-6402233568713542~6589119616</string>
+    <string name="admob_banner_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_reward_test">ca-app-pub-3940256099942544/5224354917</string>
+
+    <string name="admob_app_id">ca-app-pub-6402233568713542~6589119616</string>
+
+    <string name="falha_tente_novamente">Ops nao tens saldo suficiente para sacar</string>
+    <string name="ganhe_2mt_clique_aqui">Ganhe +2MT Clique aqui</string>
+    <string name="ganhe_1mt_full_ad">Ganhe +1MT</string>
+    <string name="compartilhsr_3mt_compartilhar">compartilhsr +1MT</string>
+    <string name="conquistas">Conquistas</string>
+    <string name="comecar">Comecar</string>
+    <string name="sobre">Sobre</string>
+    <string name="tetse">kkd</string>
+</resources>
